@@ -16,14 +16,14 @@ namespace RedKoni
 
             Console.Write("3,");
 
-            int k;
-            float l =0;
+            int e;
+            double l = 0;
 
-            for (k = 1; ; k++)
+            for (e = 1; ; e++)
             {
-                l = l - k;
-                Console.Write((16 ^ l)(4 / (8 * k + 1) - 2 / (8 * k + 4) - 1 / (8 * k + 5) - 1 / (8 * k + 6)));
-                l = 0;
+                int k = e;
+                l = (16 ^ (-k)) * (4 / (8 * k + 1) - 2 / (8 * k + 4) - 1 / (8 * k + 5) - 1 / (8 * k + 6));
+                Console.Write(l);
             }
             Console.ReadKey();
         }
