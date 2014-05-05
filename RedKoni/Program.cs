@@ -12,6 +12,16 @@ namespace RedKoni
         {
             Console.WriteLine("Hello, World!");
             Console.ReadKey();
+            Console.Clear();
+
+            Console.Write("3,");
+
+            int k;
+
+            for (k=1; ; k++)
+            {
+                Console.Write(((2 * k) ^ 2) / ((2 * k - 1) * (2 * k + 1)));
+            }
         }
     }
 }
