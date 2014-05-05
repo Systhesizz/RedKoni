@@ -17,11 +17,15 @@ namespace RedKoni
             Console.Write("3,");
 
             int k;
+            float l =0;
 
-            for (k=1; ; k++)
+            for (k = 1; ; k++)
             {
-                Console.Write(((2 * k) ^ 2) / ((2 * k - 1) * (2 * k + 1)));
+                l = l - k;
+                Console.Write((16 ^ l)(4 / (8 * k + 1) - 2 / (8 * k + 4) - 1 / (8 * k + 5) - 1 / (8 * k + 6)));
+                l = 0;
             }
+            Console.ReadKey();
         }
     }
 }
